@@ -1,0 +1,26 @@
+.s-home {
+    .container {
+        background-color: $backgroundcolor;
+        @include flex(row, flex-start, space-between);
+        .text {
+            @include flex(column, flex-start, space-between);
+            .text-principal {
+                margin: 47px 157px 41px 71px;
+                h1 {
+                    padding-bottom: 42.2px;
+                    width: 100px;
+                }
+             }
+             .text-secundary {
+                @include flex(row, center, space-between);
+                margin-left: 71px;
+                p {
+                    width: 324px;
+                    padding-left: 41px;
+                }
+             }
+        }
+        
+
+    }
+}

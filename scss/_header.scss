@@ -1,0 +1,29 @@
+header {
+    background-color: $backgroundcolor;
+    nav {
+        max-width: 738px;
+        ul {
+            width: 100%;
+            padding: 70px 0 7px  70px;
+            @include flex(row, center, space-between);
+            font-family: $primary-text;
+            font-size: 21.57px;
+            li {
+                a{
+                    color: $primary-color;
+                    transition: color .3;
+                    
+                }
+                a:hover {
+                    color: $second-color;
+                }
+                a:focus {
+                    color: $click-color;
+                }
+                
+            }
+        }
+    }
+}
+
+// Hug (668px)
