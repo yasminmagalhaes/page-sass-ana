@@ -1,0 +1,49 @@
+header {
+    .container {
+        .circles {
+            position: relative;
+            width: 100%;
+
+            img {
+                position: absolute;
+                right: 28px;
+                top: 64px;
+            }
+
+        }
+
+    }
+}
+
+.s-bio {
+    .container {
+        background-color: $backgroundcolor;
+        .bio-descricao {
+            @include flex(row, flex-start, center);
+            padding-left: 70px;
+            padding-top: 150px;
+            width: 100%;
+            max-width: 1105px;
+            .image-descricao {
+                margin-right: 59px;
+            }
+            .text-descricao {
+                h2 {
+                    font-family: 'KyivType Sans', sans-serif;
+                    font-weight: 350;
+                    font-size: 38.9336px;
+                    line-height: 47px;
+                    padding-top: 4px;
+                    padding-bottom: 50px;
+                }
+                p {
+                    font-family: 'Josefin Sans';
+                    font-weight: 300;
+                    font-size: 21.575px;
+                    line-height: 22px;
+                }
+            }
+        }
+        padding-bottom: 110px;
+    }
+}

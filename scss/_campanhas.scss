@@ -1,0 +1,42 @@
+.s-campanhas {
+    .container {
+        background-color: $backgroundcolor;
+        padding-left: 94px;
+        h2 {
+            font-family: 'KyivType Sans', sans-serif;
+            font-weight: 350;
+            font-size: 38.9336px;
+            line-height: 47px;
+            padding-top: 80px
+        }
+        .camp-descricao {
+            padding-top: 91px;
+            width: 100%;
+
+            .text-descricao-camp {
+                @include flex(row, flex-start, space-between);
+            margin-right: 64px;
+
+                
+                .text-camp {
+                    h3 {
+                        font-family: 'KyivType Sans', sans-serif;
+                        font-weight: 350;
+                        font-size: 24.52px;
+                        line-height: 47px;
+                        padding-top: 4px;
+                        padding-bottom: 50px;
+                    }
+                    p {
+                        font-family: 'Josefin Sans';
+                        font-weight: 300;
+                        font-size: 21.57px;
+                        line-height: 22px;
+                        max-width: 680px;
+                    }
+                }
+            }
+        }
+        padding-bottom: 110px;
+    }
+}

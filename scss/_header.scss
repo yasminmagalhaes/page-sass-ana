@@ -4,14 +4,15 @@ header {
         max-width: 738px;
         ul {
             width: 100%;
-            padding: 70px 0 7px  70px;
+            padding-top: 70px;
+            padding-left: 70px;
             @include flex(row, center, space-between);
             font-family: $primary-text;
             font-size: 21.57px;
             li {
                 a{
                     color: $primary-color;
-                    transition: color .3;
+                    transition: color .3s;
                     
                 }
                 a:hover {
